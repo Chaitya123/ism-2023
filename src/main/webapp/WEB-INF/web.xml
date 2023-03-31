@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>ServletFirst</display-name>
+  <welcome-file-list>
+    <welcome-file>signup.html</welcome-file>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+ 
+<servlet> 
+ 
+ <servlet-name>SignupController</servlet-name>  
+ <servlet-class>com.google.controller.SignupController</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>SignupController</servlet-name>  
+<url-pattern>/welcome</url-pattern>  
+</servlet-mapping>  
+</web-app>
